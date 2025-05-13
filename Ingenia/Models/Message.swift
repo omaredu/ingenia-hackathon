@@ -27,5 +27,17 @@ extension Message {
         Message(sender: Character.mocks[2], text: "Doing well, just working on a project.", timestamp: Date()),
         Message(sender: Character.mocks[0], text: "That's great to hear! What project?", timestamp: Date()),
         Message(sender: Character.mocks[1], text: "I'm designing a new app.", timestamp: Date()),
+        Message(sender: Character.mocks[1], text: "I'm designing a new app.", timestamp: Date()),
+        Message(sender: Character.mocks[1], text: "I'm designing a new app.", timestamp: Date()),
+        Message(sender: Character.mocks[1], text: "I'm designing a new app.", timestamp: Date()),
+        Message(sender: Character.mocks[1], text: "I'm designing a new app.", timestamp: Date()),
+        Message(sender: Character.mocks[1], text: "I'm designing a new app.", timestamp: Date()),
+        Message(sender: Character.mocks[1], text: "I'm designing a new app.", timestamp: Date()),
+        Message(sender: Character.mocks[1], text: "I'm designing a new app.", timestamp: Date()),
+        Message(sender: Character.mocks[1], text: "I'm designing a new app.", timestamp: Date()),
+        Message(sender: Character.mocks[1], text: "I'm designing a new app.", timestamp: Date()),
+        Message(sender: Character.mocks[1], text: "I'm designing a new app.", timestamp: Date()),
+        Message(sender: Character.mocks[1], text: "I'm designing a new app.", timestamp: Date()),
+        Message(sender: Character.mocks[1], text: "I'm designing a new app.", timestamp: Date())
     ]
 }
