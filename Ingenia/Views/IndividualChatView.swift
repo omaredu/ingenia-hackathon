@@ -10,11 +10,13 @@ import SwiftUI
 
 struct IndividualChat: View {
     @State private var previewText: String = ""
+    var messages: [Message] = []
 
     var body: some View {
         VStack {
-            MessageRowView(text: "Du Hast", sender:  .theirs, timestamp: Date())
-            MessageRowView(text: "Du Hast", sender:  .mine, timestamp: Date())
+            ScrollView(.vertical){
+                MessageRowView(messages: messages)
+            }
             Spacer() // This represents the chat messages area (you can fill this later with messages)
 
             FooterInputView(messageText: $previewText) {
@@ -26,5 +28,7 @@ struct IndividualChat: View {
 }
 
 #Preview {
-    IndividualChat()
+    let messages: [Message] = Message.mocks
+
+    IndividualChat(messages: messages)
 }
