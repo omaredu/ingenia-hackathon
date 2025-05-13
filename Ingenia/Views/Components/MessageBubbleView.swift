@@ -29,12 +29,10 @@ struct MessageBubbleView: View {
             
             HStack{
                 if (message.sender.sender == .theirs){
-                    Image(systemName: "checkmark")
+                    Image(systemName: "person.circle")
                         .resizable()
-                        .frame(width: 5, height: 5)
-                        .foregroundColor(.white)
-                        .padding(15)
-                        .background(Color.green)
+                        .frame(width: 35, height: 35)
+                        .foregroundColor(.black)
                         .clipShape(Circle())
                 }
                 Text(message.text)
@@ -46,7 +44,7 @@ struct MessageBubbleView: View {
                 Text(formattedTime)
                     .font(.caption2)
                     .foregroundColor(.gray)
-                    .padding(.horizontal, 25)
+                    .padding(.horizontal, 10)
             
         }
         .frame(maxWidth: 250, alignment: message.sender.sender == .mine ? .trailing : .leading)
