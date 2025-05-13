@@ -1,0 +1,8 @@
+Struct
+
+name:
+persona:
+Antecedentes:
+Personalidad:
+Motivaciones:
+Miedos y conflictos:
