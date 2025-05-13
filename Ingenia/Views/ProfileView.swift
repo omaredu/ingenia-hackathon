@@ -33,7 +33,7 @@ struct ProfileView: View {
                 
                 HStack {
                     NavigationLink {
-                        ChatView()
+                        ChatLogView()
                     } label: {
                         VStack {
                             Image(systemName: "message.fill")
@@ -59,7 +59,6 @@ struct ProfileView: View {
 
 struct ChatView: View {
     var body: some View {
-        Text("Vista pendiente de chat")
     }
 }
 

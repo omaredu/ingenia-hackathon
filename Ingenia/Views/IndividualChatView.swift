@@ -17,7 +17,7 @@ struct IndividualChat: View {
             ScrollView(.vertical){
                 MessageRowView(messages: messages)
             }
-            Spacer() // This represents the chat messages area (you can fill this later with messages)
+            Spacer()
 
             FooterInputView(messageText: $previewText) {
                 print("Send tapped with message: \(previewText)")
