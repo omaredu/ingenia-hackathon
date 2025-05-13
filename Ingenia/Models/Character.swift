@@ -26,3 +26,11 @@ struct Character: Identifiable {
         self.avatar = avatar
     }
 }
+
+extension Character {
+    static let mocks : [Character] = [
+        Character(name: "Alice", age: 30, profession: "Engineer", description: "A brilliant engineer with a knack for problem-solving.", traits: ["Intelligent", "Creative"], avatar: "alice_avatar"),
+        Character(name: "Bob", age: 25, profession: "Designer", description: "A talented designer with an eye for aesthetics.", traits: ["Artistic", "Detail-oriented"], avatar: "bob_avatar"),
+        Character(name: "Charlie", age: 35, profession: "Manager", description: "An experienced manager with strong leadership skills.", traits: ["Organized", "Decisive"], avatar: "charlie_avatar")
+    ]
+}
