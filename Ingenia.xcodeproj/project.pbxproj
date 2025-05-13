@@ -16,6 +16,11 @@
 			path = Ingenia;
 			sourceTree = "<group>";
 		};
+		FBCA4F572DD30A1D00C89FE6 /* Enums */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Enums;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +39,7 @@
 			children = (
 				441753162DD2F587001F53BD /* Ingenia */,
 				441753152DD2F587001F53BD /* Products */,
+				FBCA4F572DD30A1D00C89FE6 /* Enums */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +68,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				441753162DD2F587001F53BD /* Ingenia */,
+				FBCA4F572DD30A1D00C89FE6 /* Enums */,
 			);
 			name = Ingenia;
 			packageProductDependencies = (
