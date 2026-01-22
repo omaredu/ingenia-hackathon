@@ -5,8 +5,6 @@
 Ingenia is a SwiftUI chat experience that blends character-driven storytelling with STEM career discovery. The app simulates a WhatsApp-style interface where users chat with multiple agents, while an orchestrator quietly tracks intent and updates STEM affinity scores based on the conversation.
 
 <img src="./docs/assets/screenshots.png" width="500" alt="App screenshots">
-    
----
 
 ## Features
 
